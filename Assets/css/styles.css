@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
 background: #b4e391; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
@@ -5,6 +10,7 @@ background: -webkit-radial-gradient(center, ellipse cover, #b4e391 0%,#61c419 50
 background: radial-gradient(ellipse at center, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 background: ;
+z-index: -2;
 }
 
 .header {
@@ -50,7 +56,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
 .hero {    
         height: 800px;
         width: auto;
-        margin-right: 25px;
         background-size: cover;
         background-position: center;
         background-image: url(../images/wallhaven-lmg57q.jpg);
@@ -67,7 +72,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
     color: antiquewhite;
 }
 
-
+.contactForm {
+    float: left;
+}
 
 .main {
     width: 75%;
@@ -76,20 +83,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     color: aliceblue;
+    z-index: 0;
 }
 
 .github {
     height: 400px;
     display: block;
+    background-color: blue;
 }
 
 .portfolio {
     height: 400px;
 }
 
-.contact {
+.contact-form {
     height: 800px;
     width: 800px;
+    background-color: black;
 }
+
+.form-head {
+    color: black;
+    background-image: url(../images/e9c6ec80-8902-11eb-9f55-5de819da8bf5.jpg);
+    background-size: contain;
+    background-image: ;
+}
+
+.footer
+

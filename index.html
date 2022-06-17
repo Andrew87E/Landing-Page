@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/css/styles.css">
-        <title>Landing Page</title>
+    <title>Landing Page</title>
 </head>
 
 <body>
 <!-- Header/Nav Bar -->
 <header class="header" title="Navigation Bar">
     <h1>
-            Landing Page
+        Landing Page
     </h1>
     <!-- nav bar -->
     <nav class="navigation">
@@ -30,33 +30,97 @@
     </nav>
 </header>
 
-    <figure class="hero" title="background image"></figure>
+<figure class="hero" title="background image"></figure>
 
 <main class="main">
     <!-- some boxes -->
-    <section id="github" class="github" title="github">
-        <h2>Check out my github!</h2>
-            <a href="https://github.com/andrew87E/" alt="my github link">GitHub</a>
+<section id="github" class="github" title="github">
+    <h2>Check out my github!</h2>
+        <a href="https://github.com/andrew87E/" alt="my github link">GitHub</a>
+</section>
 
-    </section>
-
-    <section id="portfolio" class="portfolio" title="portfolio">
+<section id="portfolio" class="portfolio" title="portfolio">
         Portfolio
-    </section>
+</section>
 
-    <section id="contact" class="contact" title="contact">
-        Contact
-    </section>
+<section id="contact-form">
+        <header class="form-head">
+          <h1>CONTACT ME &nbsp;</h1>
+          <h3>Fill out the form below to learn more!</h3>
+        </header>
+          <form action="#">
+            <ul>
+              <li>
+                <p class="left">
+                  <label for="first_name">first name</label>
+                  <br>
+                  <input type="text" name="first_name" placeholder="John" />
+                </p>
+                </li>
+                <li>
+                <p class="pull-right">
+                  <label for="last_name">last name</label>
+                  <br>
+                  <input type="text" name="last_name" placeholder="Smith" />      
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="email">email <span class="req">*</span></label>
+                  <br>
+                  <input type="email" name="email" placeholder="john.smith@gmail.com" />
+                </p>
+              </li>        
+    <br><br> 
+             <li>
+                <label for="comments">comments</label>
+                <br>
+                <textarea cols="46" rows="3" name="comments"></textarea>
+              </li>
+              
+              <li>
+                <input class="btn btn-submit" type="submit" value="Submit" />
+                <small>or press <strong>enter</strong></small>
+              </li>
+              
+            </ul>
+          </form>  
+</section>
+<br>
+
+
+
+
+
+
+<!--<section id="contactForm" class="contactForm" title="contact">
+        Contact Me!
+        <form class="container">
+            <header class="row header">
+                <h2>Contact me! &nbsp;</h2>
+                <h3>Fill out the form below to learn more about me!</h3>
+            </header>
+        </form>
+</section>
+-->
+
+
+
 
 
 
 <p>
     Put some stuffs here
 </p>
-
-
-
 </main>
+
+
+<footer class="footer">
+    <h2>Made with ❤️ by Andrew</h2>
+    <h3>
+        &copy; 2022 Andrew Edwards
+    </h3>
+</footer>
 
     
 </body>
