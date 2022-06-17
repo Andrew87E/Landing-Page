@@ -1,0 +1,95 @@
+body {
+background: #b4e391; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background: ;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    background: #87e0fd; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header a link {
+    color: aliceblue
+}
+
+.header a:visited {
+    color: crimson;
+}
+
+.header a:hover {
+    color: #61c419;
+}
+
+.header a:active {
+    color: blueviolet;
+}
+
+.header h1 {
+    display: inline-block;
+}
+
+.header nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+    
+    .header nav ul li {
+        display: inline-block
+}
+
+.hero {    
+        height: 800px;
+        width: auto;
+        margin-right: 25px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../images/wallhaven-lmg57q.jpg);
+        padding: 40px;
+        z-index: -1;
+}
+
+.navigation {
+    padding-top: 15px;
+    margin-right: auto;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+
+
+.main {
+    width: 75%;
+    margin-left: 20px;
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    color: aliceblue;
+}
+
+.github {
+    height: 400px;
+    display: block;
+}
+
+.portfolio {
+    height: 400px;
+}
+
+.contact {
+    height: 800px;
+    width: 800px;
+}
